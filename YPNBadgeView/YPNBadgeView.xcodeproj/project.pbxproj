@@ -12,10 +12,10 @@
 		550362D31B8CB928005AE9B3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 550362D21B8CB928005AE9B3 /* Images.xcassets */; };
 		550362D61B8CB928005AE9B3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 550362D41B8CB928005AE9B3 /* LaunchScreen.xib */; };
 		550362E21B8CB929005AE9B3 /* YPNBadgeViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 550362E11B8CB929005AE9B3 /* YPNBadgeViewTests.m */; };
-		550362EF1B8CB965005AE9B3 /* YPNBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 550362EC1B8CB965005AE9B3 /* YPNBadgeView.m */; };
-		550362F01B8CB965005AE9B3 /* YPNMaxBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 550362EE1B8CB965005AE9B3 /* YPNMaxBadgeView.m */; };
 		550362F31B8CB98D005AE9B3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 550362F21B8CB98D005AE9B3 /* ViewController.m */; };
 		550362F61B8CB9CF005AE9B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 550362F41B8CB9CF005AE9B3 /* Main.storyboard */; };
+		550362FC1B8CBAB8005AE9B3 /* YPNBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 550362F91B8CBAB8005AE9B3 /* YPNBadgeView.m */; };
+		550362FD1B8CBAB8005AE9B3 /* YPNMaxBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 550362FB1B8CBAB8005AE9B3 /* YPNMaxBadgeView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,13 +39,13 @@
 		550362DB1B8CB929005AE9B3 /* YPNBadgeViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YPNBadgeViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		550362E01B8CB929005AE9B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		550362E11B8CB929005AE9B3 /* YPNBadgeViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YPNBadgeViewTests.m; sourceTree = "<group>"; };
-		550362EB1B8CB965005AE9B3 /* YPNBadgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPNBadgeView.h; sourceTree = "<group>"; };
-		550362EC1B8CB965005AE9B3 /* YPNBadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPNBadgeView.m; sourceTree = "<group>"; };
-		550362ED1B8CB965005AE9B3 /* YPNMaxBadgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPNMaxBadgeView.h; sourceTree = "<group>"; };
-		550362EE1B8CB965005AE9B3 /* YPNMaxBadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPNMaxBadgeView.m; sourceTree = "<group>"; };
 		550362F11B8CB98D005AE9B3 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		550362F21B8CB98D005AE9B3 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		550362F51B8CB9CF005AE9B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		550362F81B8CBAB8005AE9B3 /* YPNBadgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPNBadgeView.h; sourceTree = "<group>"; };
+		550362F91B8CBAB8005AE9B3 /* YPNBadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPNBadgeView.m; sourceTree = "<group>"; };
+		550362FA1B8CBAB8005AE9B3 /* YPNMaxBadgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPNMaxBadgeView.h; sourceTree = "<group>"; };
+		550362FB1B8CBAB8005AE9B3 /* YPNMaxBadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPNMaxBadgeView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,11 +91,8 @@
 				550362CA1B8CB928005AE9B3 /* AppDelegate.m */,
 				550362F11B8CB98D005AE9B3 /* ViewController.h */,
 				550362F21B8CB98D005AE9B3 /* ViewController.m */,
+				550362F71B8CBA98005AE9B3 /* Class */,
 				550362F41B8CB9CF005AE9B3 /* Main.storyboard */,
-				550362EB1B8CB965005AE9B3 /* YPNBadgeView.h */,
-				550362EC1B8CB965005AE9B3 /* YPNBadgeView.m */,
-				550362ED1B8CB965005AE9B3 /* YPNMaxBadgeView.h */,
-				550362EE1B8CB965005AE9B3 /* YPNMaxBadgeView.m */,
 				550362D21B8CB928005AE9B3 /* Images.xcassets */,
 				550362D41B8CB928005AE9B3 /* LaunchScreen.xib */,
 				550362C51B8CB928005AE9B3 /* Supporting Files */,
@@ -127,6 +124,17 @@
 				550362E01B8CB929005AE9B3 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		550362F71B8CBA98005AE9B3 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				550362F81B8CBAB8005AE9B3 /* YPNBadgeView.h */,
+				550362F91B8CBAB8005AE9B3 /* YPNBadgeView.m */,
+				550362FA1B8CBAB8005AE9B3 /* YPNMaxBadgeView.h */,
+				550362FB1B8CBAB8005AE9B3 /* YPNMaxBadgeView.m */,
+			);
+			path = Class;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,10 +237,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				550362F01B8CB965005AE9B3 /* YPNMaxBadgeView.m in Sources */,
 				550362CB1B8CB928005AE9B3 /* AppDelegate.m in Sources */,
-				550362EF1B8CB965005AE9B3 /* YPNBadgeView.m in Sources */,
+				550362FD1B8CBAB8005AE9B3 /* YPNMaxBadgeView.m in Sources */,
 				550362C81B8CB928005AE9B3 /* main.m in Sources */,
+				550362FC1B8CBAB8005AE9B3 /* YPNBadgeView.m in Sources */,
 				550362F31B8CB98D005AE9B3 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
