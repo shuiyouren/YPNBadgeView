@@ -10,5 +10,5 @@ self.badgeView.badgeAlignment = YPNBadgeAlignmentRight|YPNBadgeAlignmentTop;
 //设置badgeView类型，包括小红点和数字两种类型
 self.badgeView.badgeType = YPNBadgeTypePoint;
 //设置文本
-self.badgeView.badgeText = @"99”;
+self.badgeView.badgeText = @"99";
 ```
