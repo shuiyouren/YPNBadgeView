@@ -25,11 +25,11 @@ typedef NS_ENUM(NSUInteger, YPNBadgeAlignment) {
 
 @property (nonatomic, copy) NSString *badgeText;
 @property (nonatomic, assign) YPNBadgeType badgeType;
+@property (nonatomic, assign) YPNBadgeAlignment badgeAlignment;
 @property (nonatomic, strong) UIColor *badgeTextColor;
-@property (nonatomic, assign) CGFloat badgeCornerRadius;
 @property (nonatomic, strong) UIFont *badgeTextFont;
 @property (nonatomic, strong) UIColor *badgeBackgroundColor;
-@property (nonatomic, assign) YPNBadgeAlignment badgeAlignment;
+@property (nonatomic, assign) CGFloat badgeCornerRadius;
 @property (nonatomic, assign) CGFloat badgeMinWidth;
 @property (nonatomic, assign) CGFloat badgeMaxWidth;
 

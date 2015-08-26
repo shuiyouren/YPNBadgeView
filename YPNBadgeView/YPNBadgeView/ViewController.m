@@ -35,6 +35,7 @@
         self.badgeView.badgeType = YPNBadgeTypeNumber;
     }
     self.badgeView.badgeText = [NSString stringWithFormat:@"%d", ++num];
+    self.badgeView.badgeTextColor = [UIColor greenColor];
 }
 
 - (void)didReceiveMemoryWarning {

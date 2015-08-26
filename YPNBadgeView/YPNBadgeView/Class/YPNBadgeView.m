@@ -42,8 +42,8 @@ static const CGFloat YPNBadgeViewTextSideMargin = 8.0f;
     self.badgeType = YPNBadgeTypeNumber;
     self.badgeText = @"";
     self.badgeTextFont = [UIFont systemFontOfSize:[UIFont systemFontSize]];
+    self.badgeTextColor = [UIColor whiteColor];
     self.badgeBackgroundColor = [UIColor redColor];
-    self.badgeCornerRadius = 10.0f;
     self.badgeAlignment = YPNBadgeAlignmentCenter;
     self.badgeMinWidth = YPNBadgeViewHeight;
     self.badgeMaxWidth = CGFLOAT_MAX;
@@ -95,8 +95,6 @@ static const CGFloat YPNBadgeViewTextSideMargin = 8.0f;
     
     CGContextSaveGState(ctx);
     {
-        CGContextSetFillColorWithColor(ctx, self.badgeTextColor.CGColor);
-        
         CGRect textFrame = rect;
         CGSize textSize = [self sizeOfTextForCurrentSettings];
         
@@ -108,7 +106,7 @@ static const CGFloat YPNBadgeViewTextSideMargin = 8.0f;
         paragraphStyle.alignment = NSTextAlignmentCenter;
         [self.badgeText drawWithRect:textFrame
                              options:NSStringDrawingUsesLineFragmentOrigin|NSStringDrawingUsesFontLeading
-                          attributes:@{NSFontAttributeName: self.badgeTextFont, NSParagraphStyleAttributeName: paragraphStyle}
+                          attributes:@{NSFontAttributeName: self.badgeTextFont, NSForegroundColorAttributeName: self.badgeTextColor, NSParagraphStyleAttributeName: paragraphStyle}
                              context:nil];
         
     }
