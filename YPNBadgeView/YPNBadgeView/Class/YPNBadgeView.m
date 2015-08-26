@@ -11,7 +11,7 @@
 //#import <QuartzCore/QuartzCore.h>
 
 #if !__has_feature(objc_arc)
-#error JSBadgeView must be compiled with ARC.
+#error YPNBadgeView must be compiled with ARC.
 #endif
 
 static const CGFloat YPNBadgeViewHeight = 16.0f;

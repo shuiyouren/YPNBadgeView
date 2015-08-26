@@ -12,3 +12,6 @@ self.badgeView.badgeType = YPNBadgeTypePoint;
 //设置文本
 self.badgeView.badgeText = @"99";
 ```
+
+
+部分参考：JSBadgeView
