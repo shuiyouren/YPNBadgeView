@@ -33,6 +33,7 @@ typedef NS_ENUM(NSUInteger, YPNBadgeAlignment) {
 @property (nonatomic, assign) CGFloat badgeMinWidth;
 @property (nonatomic, assign) CGFloat badgeMaxWidth;
 
+@property (nonatomic, strong) NSString *specificText; //可显示的非数值类型的字符
 @property (nonatomic, assign, readonly) CGRect rectDrawArea;
 
 @end

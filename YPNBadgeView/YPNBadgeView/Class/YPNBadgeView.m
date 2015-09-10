@@ -58,7 +58,7 @@ static const CGFloat YPNBadgeViewTextSideMargin = 8.0f;
     switch (self.badgeType) {
         case YPNBadgeTypeNumber:
         {
-            if (self.badgeText.length > 0 && self.badgeText.integerValue > 0) {
+            if ((self.badgeText.length > 0 && self.badgeText.integerValue > 0) || [self.badgeText isEqualToString:self.specificText]) {
                 [self drawNumberInRect:rect];
             }
         }

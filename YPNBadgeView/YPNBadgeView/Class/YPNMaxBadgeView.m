@@ -17,4 +17,8 @@
     [super setBadgeText:badgeText];
 }
 
+- (NSString *)specificText {
+    return @"99+";
+}
+
 @end
