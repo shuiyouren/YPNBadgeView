@@ -171,7 +171,7 @@ static const CGFloat YPNBadgeViewTextSideMargin = 8.0f;
         offsetX = floor(CGRectGetWidth(self.bounds) - width);
     }
     else {
-        offsetX = floor((CGRectGetWidth(self.bounds))/2.0f);
+        offsetX = floor((CGRectGetWidth(self.bounds) - width)/2.0f);
     }
     drawRect.size.width = floor(width) ;
     drawRect.size.height = floor(height);
